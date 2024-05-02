@@ -3,11 +3,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { ValueProvider } from './context/contextApi';
+import { QueryClient, QueryClientProvider } from 'react-query';
+import Footer from "./Components/Carfooter/footer"
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const queryClient = new QueryClient()
 root.render(
   <React.StrictMode>
+<ValueProvider>
+  <QueryClientProvider client={queryClient}>
     <App />
+    <Footer/>
+    </QueryClientProvider>
+    </ValueProvider> 
   </React.StrictMode>
 );
 

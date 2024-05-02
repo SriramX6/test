@@ -1,0 +1,185 @@
+.whole{
+    display: grid;
+    grid-template-columns: 70% 30%;
+
+}
+.left{
+    width: 100%;
+}
+.my-table {
+    border-collapse: collapse;
+    border-radius: 10px;
+  }
+  
+   .my-table  {
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 8px;
+  }
+  .my-table th {
+   color: grey;
+   border: 1px solid gray;
+   border-right: none;
+   border-left: none;
+   padding: 2%;
+   width: 2%;
+
+   
+
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+.variant--name{
+    cursor: pointer;
+    text-decoration: underline;
+    width: 80%;
+    
+
+}
+.table--row{
+    width: 15%;
+}
+.variant--specification {
+width: 80%; 
+font-family: Arial, Helvetica, sans-serif;
+font-size: 90%;   
+color: grey;
+border-radius: 10px;
+margin-left: 2%;
+}
+.variant--price{
+    color: rgb(78, 78, 78);
+    font-weight: bold;
+}
+
+.compare--cars--btn{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.compare--cars--btn input[type="checkbox"] {
+    transform: scale(1.2); /* Increase the size of the checkbox */
+   margin-left: 5px;  /*Add some spacing to the right of the checkbox */
+  }
+  .compare--cars--btn p{
+   font-family:  LatoGoogle,Lato,LatoWeb,sans-serif;;
+   color: grey;
+   font-size: x-small;
+  
+}
+/*  */
+
+.right{
+    width: 100%;
+}
+
+        .surprise--compare--btn button{
+            opacity: 1;
+            transition: opacity 0.5s ease-in-out; 
+        }
+
+
+        /* surprise comapare card */
+
+
+        .sc-compare--1 {
+            position: sticky;
+            bottom: 0;
+            width: 20%;
+            border: 1px solid #ccc;
+            overflow: hidden;
+            
+            background-color:  #ffffff;
+            height: 230px;
+            /* z-index: 999999999; */
+        
+          }
+
+          .sc-product--image {
+            height: 60px;
+            width: 70px;
+          }
+
+
+        /* surprise comapare */
+
+        .surprise--compare{
+            width: 100%;
+            height: 10%;
+            position: sticky;
+            bottom: 0;
+            background-color: white;
+            border: 1px solid #ccc;
+            
+            
+        }
+        .flexed{
+            display: flex;
+        }
+        
+       
+        
+        .comparison--one{
+            width: 20%;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            border-right: none;
+         
+            
+        }
+        
+        
+        .surprise-wrapper {
+            position: relative;
+            width: 15px;
+            height: 150px;
+            /* border: 1px dashed #ccc; */
+            margin-top: 10%;
+          
+        }
+        
+        /* .surprise-line {
+            position: absolute;
+            left: 50%;
+            top: 0;
+            bottom: 0;
+            width: 1px;
+            background: #ccc;
+            z-index: 1;
+        } */
+        
+        .surprise-wordwrapper {
+            text-align: center;
+            height: 40px;
+            position: relative;
+            left: 0;
+            right: 0;
+            top: 50%;
+            margin-top: -12px;
+            z-index: 2;
+        }
+        
+        .surprise-word {
+            color: #170f0f;
+            text-transform: uppercase;
+            /* letter-spacing: 1px; */
+            /* padding: 3px; */
+            font: bold 12px arial,sans-serif;
+            background: #ffffff07;
+        }
+      
+        .surpirse-compare-btn{
+            justify-content: center;
+            align-items: center;
+            width:20% ;
+            border: 1px solid #ccc;
+           
+            
+
+        }
+        .surpirse-compare-btn button{
+        margin-top: 50%;
+
+        }
+

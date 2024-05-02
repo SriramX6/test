@@ -1,0 +1,45 @@
+.audi--card{
+    display: flex;
+    border: 1px solid rgb(141, 139, 139) ;
+    border-radius: 10px;
+    width: 80%;
+    margin: 4%;
+    
+}
+
+.audi--img img{
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.audi--desc{
+}
+.audi--list{
+    margin-top: 20%;
+    list-style: none;
+    margin-left: -1%;
+    padding: 0%;
+}
+
+.audi--model {
+   width: 60%;
+   cursor: pointer;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.audi--features p{
+    /* display: inline; */
+    width: 115%;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.audi--price p{
+    font-weight: bolder;
+    margin-left: 0%;
+    width: 100%;
+
+}
